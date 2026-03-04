@@ -300,12 +300,12 @@ export default function Page() {
 function Block({ title, items }: { title: string; items: string[] }) {
   const filtered = (items ?? []).map((x) => x.trim()).filter(Boolean);
   return (
-    <div className="rounded-xl border border-slate-200 p-3">
-      <div className="font-medium">{title}</div>
+    <div className="rounded-2xl border border-slate-700/70 bg-slate-950/70 p-3">
+      <div className="font-medium text-slate-100">{title}</div>
       {filtered.length === 1 ? (
-        <div className="mt-2 text-slate-700">{filtered[0]}</div>
+        <div className="mt-2 text-slate-100">{filtered[0]}</div>
       ) : (
-        <ul className="mt-2 list-disc space-y-1 pl-5 text-slate-700">
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-slate-100">
           {filtered.map((x, i) => (
             <li key={i}>{x}</li>
           ))}
