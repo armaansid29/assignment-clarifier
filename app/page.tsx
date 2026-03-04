@@ -96,11 +96,11 @@ export default function Page() {
               For students who want less stress and clearer assignments
             </div>
             <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-              Assignment Clarifier
+              Briefly
             </h1>
             <p className="max-w-2xl text-sm text-slate-300 md:text-base">
               Paste your assignment prompt and get a clean breakdown of what you actually have to do:
-              requirements, deliverables, a game-plan, and a checklist you can follow.
+              a brief including requirements, deliverables, a game-plan, and a checklist you can follow.
             </p>
           </div>
           <div className="text-xs text-slate-400 md:text-right">
